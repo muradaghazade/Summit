@@ -1,0 +1,12 @@
+.container {
+    max-width: 1250px !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+ .card-body {
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 290px !important;
+ }
