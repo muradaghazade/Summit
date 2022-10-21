@@ -45,7 +45,7 @@
 
 
 .experience-cont {
-   margin-top: 950px;
+   margin-top: 1550px;
 }
 
 
@@ -59,7 +59,7 @@
 }
 
 .experience-cont {
-   margin-top: 3850px;
+   margin-top: 5150px !important;
 }
 
 .exp-title {
@@ -80,15 +80,84 @@
    text-align: start !important;
 }
 
+.buy-tick {
+   width: 100% !important;
+}
+
+.card-body {
+   margin-top: 20px !important;
+}
+
 }
 @media (max-width: 360px) {
-   .experience-cont {
-      margin-top: 3850px;
+   .main-title {
+      font-size: 40px !important;
    }
+   
+   .experience-cont {
+      margin-top: 5150px !important;
+   }
+   
+   .exp-title {
+      font-size: 20px !important;
+      width: 100% !important;
+   }
+   
+   .description {
+      width: 100% !important;
+   }
+   
+   .tab__container {
+      padding: 30px !important;
+      height: 540px !important;
+   }
+   
+   .desc-cont {
+      text-align: start !important;
+   }
+
+   .buy-tick {
+      width: 100% !important;
+   }
+
+   .card-body {
+      margin-top: 20px !important;
+   }
+
 }
 @media (min-width: 768px) and (max-width: 841px) {
+   .main-title {
+      font-size: 40px !important;
+   }
+   
    .experience-cont {
-      margin-top: 3850px;
+      margin-top: 5150px !important;
+   }
+   
+   .exp-title {
+      font-size: 20px !important;
+      width: 100% !important;
+   }
+   
+   .description {
+      width: 100% !important;
+   }
+   
+   .tab__container {
+      padding: 30px !important;
+      height: 540px !important;
+   }
+   
+   .desc-cont {
+      text-align: start !important;
+   }
+
+   .buy-tick {
+      width: 100% !important;
+   }
+
+   .card-body {
+      margin-top: 20px !important;
    }
 
 }
