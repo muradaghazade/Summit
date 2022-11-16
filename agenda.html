@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -85,356 +86,1096 @@
       
             <div id="home-main" class="tab-pane in active show">
               <h1 id="home">Opening Sessions</h1>
-              <div class="accordion mb-5" id="accordionExample">
-                <div class="card" style="border: none;">
-                  <div class="card-header" id="headingOne" style="background-color: rgb(70, 73, 152);">
-                    <h2 class="mb-0">
-                      <div style="display: flex;">
-                        <button style="font-size: 16px; background: transparent; border: none; color: white;">08:00 AM - 09:00 AM</button>
-                        <div><button style="font-size: 16px; background: transparent; border: none; color: white; margin-left: 65px;">Registration</button></div>
-                        <!-- <button style="color: white;" class="btn btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          more
-                        </button> -->
-                      </div>
-                      
-                    </h2>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                     <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
-                     <div class="mt-3 ml-3" style="text-align: left;">
-                      <h5>Robin Sharma</h5>
-                      <p>Top Global Leadership Expert</p>
-                      <p>Topic: Innovation Leader Manifesto</p>
+                <div class="accordion" id="accordionExample">
+                  <!-- <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                     <div class="item-header" id="headingOne">
+                        <h2 style="font-family: Montserrat;" class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           08:00 AM - 09:00 AM
+                            </div>
+                            <div class="col-md-9">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Registration
+                           <i class="fa fa-angle-down"></i>
+                            </div>
+                            
+                            </button>
+                          </div>
+                          <div>
+                          </div>
+                        </h2>
                      </div>
+                     <div id="collapseOne" class="row collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/rb.png" alt="">
+                        </div>
+                        <div class="col-md-9">
+                          <h3 style="text-align:start;">Robin Sharma</h3>
+                        </div>
+                     </div>
+                  </div> -->
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                              08:00 AM - 09:00 AM
+                           <!-- <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              08:00 AM - 09:00 AM
+                            </button> -->
+                            </div>
+                            <div class="col-md-9" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            Registration
+                              <!-- <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              Registration
+                              <i class="fa fa-angle-down"></i>
+                            </button> -->
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <!-- <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="t-p">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </div>
+                     </div> -->
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            09:00 AM - 09:20 AM
+                           <!-- <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              08:00 AM - 09:00 AM
+                            </button> -->
+                            </div>
+                            <div class="col-md-9" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;">
+                            Opening Speech by PASHA Holding and Ministry of Digital Development and Transportation Leadership
+                              <!-- <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Opening Speech by PASHA Holding and Ministry of Digital Development
+                              <i class="fa fa-angle-down"></i>
+                            </button> -->
+                            </div>
+                           
+                          </div>
+                        </h2>
+                     </div>
+                     <!-- <div id="collapseTwo" class="row collapse" aria-labelledby="headingTwo"
+                        data-parent="#accordionExample">
+                     <div class="col-md-3">
+                      <img style="width: 200px; border-radius: 10px;" src="./img/rb.png" alt="">
+                     </div>
+                     <div class="col-md-9">
+                      <h3 style="text-align: start;">Robin Sharma</h3>
+                      <h6 style="text-align: start;">Top Global Leadership Expert</h6>
+                     </div>
+                     </div> -->
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseThree" aria-expanded="false"
+                              aria-controls="collapseThree">
+                              09:20 AM - 10:30 AM
+                              </button>
+                            </div>
+                            <div class="col-md-9">
+                            <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseThree" aria-expanded="false"
+                              aria-controls="collapseThree">
+                              Opening Keynote by Robin Sharma and Q&A
+                           <i class="fa fa-angle-down"></i>
+                           </button>
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3">
+                          <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+                         </div>
+                         <div class="col-md-9">
+                          <h3 style="text-align: start;">Robin Sharma</h3>
+                          <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                     </div>
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                 data-target="#collapseFour" aria-expanded="false"
+                                 aria-controls="collapseFour">
+                                 10:30 AM - 11:15 AM 
+                              </button>
+                            </div>
+                            <div class="col-md-9">
+                              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                              data-target="#collapseFour" aria-expanded="false"
+                              aria-controls="collapseFour">Panel on Corporate Innovation Trends
+                              <i class="fa fa-angle-down"></i>
+                              </button>
+                            </div>
+                          </div>
+                        </h2>
+                     </div>
+                     <div id="collapseFour" class="row collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="col-md-3">
+                          <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+                         </div>
+                         <div class="col-md-9">
+                          <h3 style="text-align: start;">Robin Sharma</h3>
+                          <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/kiangohars.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Kian Gohar</h3>
+                          <p style="text-align: start; color:gainsboro">Founder & CEO of Geolab, Global Innovation Leader</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/j.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Jalal Gasimov</h3>
+                          <p style="text-align: start; color:gainsboro">CEO of PASHA Holding</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                        <div class="col-md-3 mt-4">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/faridahmadov.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-4">
+                          <h3 style="text-align: start;">Farid Ahmadov</h3>
+                          <p style="text-align: start; color:gainsboro">Deputy Minister of Digital Development and Transportation</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                         <div class="col-md-12 mt-2">
+                          <h2>Moderated by</h2>
+                         </div>
+                         <div class="col-md-3 mt-3">
+                          <img style="width: 200px; border-radius: 10px;" src="./img/dan.png" alt="">
+                         </div>
+                         <div class="col-md-9 mt-3">
+                          <h3 style="text-align: start;">DanRam</h3>
+                          <p style="text-align: start; color:gainsboro">Global Event MC, Startup Ecosystem Expert</p>
+                          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                         </div>
+                     </div>
+                  </div>
+                  <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingFive">
+                        <h2 class="mb-0">
+                          <div class="row">
+                            <div class="col-md-3" style="color: white;
+                            font-size: 20px;
+                            padding: 29px;
+                            display: block;
+                            width: 100%;
+                            text-align: left; font-family: Montserrat; font-size: 20px;" >
+                              11:15 AM - 11:30 AM
+                            </div>
+                          <div class="col-md-9" style="color: white;
+                          font-size: 20px;
+                          padding: 29px;
+                          display: block;
+                          width: 100%;
+                          text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            Break
+                          </div>
+                        </div>
+                        </h2>
+                     </div>
+                     <!-- <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="t-p">
+                           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </div>
+                     </div> -->
+                  </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                  <h1 id="menu1">FinTech Vertical</h1>
+                  <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+                    <div class="item-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <div class="row">
+                          <div class="col-md-3" style="color: white;
+                          font-size: 20px;
+                          padding: 29px;
+                          display: block;
+                          width: 100%;
+                          text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            11:30 AM - 12:15 PM
+                          </div>
+                          <div class="col-md-9" style="color: white;
+                          font-size: 20px;
+                          padding: 29px;
+                          display: block;
+                          width: 100%;
+                          text-align: left; font-family: Montserrat; font-size: 20px;" >
+                            Keynote by (TBA later)
+                          </div>   
+                  </div>
+                </div>
+                <!-- <div id="collapseOne" class="row collapse" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="col-md-3">
+                  <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+                 </div>
+                 <div class="col-md-9">
+                  <h3 style="text-align: start;">Robin Sharma</h3>
+                  <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+                  <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+                 <!-- </div>
+             </div> -->
+            </div>
+            <div class="item col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+              <div class="item-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <div class="row">
+                      <div class="col-md-3">
+                     <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        12:15 PM - 13:00 PM
+                      </button>
+                      </div>
+                      <div class="col-md-9">
+                        <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Panel on FinTech Trends
+                        <i class="fa fa-angle-down"></i>
+                      </button>
+                      </div>
+                     
                     </div>
-                  </div>
-                </div>
-                <div class="card" style="border: none;">
-                  <div class="card-header" id="headingTwo" style="background-color: rgb(70, 73, 152);">
-                    <h2 class="mb-0">
-                      <div style="display: flex; justify-content: space-between;">
-                        <button style="font-size: 16px; background: transparent; border: none; color: white;">08:00 AM - 09:00 AM</button>
-                        <button style="font-size: 16px; background: transparent; border: none; color: white;">Opening speech by the leadership of PASHA Holding and Ministry of Digital Development and Transportation</button>
-                        <!-- <button style="color: white;" class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          more
-                        </button> -->
-                      </div>
-                    </h2>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>Robin Sharma</h5>
-                       <p>Top Global Leadership Expert</p>
-                       <p>Topic: Innovation Leader Manifesto</p>
-                      </div>
-                     </div>
-                  </div>
-                </div>
-                <div class="card" style="border: none;">
-                  <div class="card-header" id="headingThree" style="background-color: rgb(70, 73, 152);">
-                    <h2 class="mb-0">
-                      <div style="display: flex; justify-content: space-between;">
-                        <button style="font-size: 16px; background: transparent; border: none; color: white;">09:20 AM - 10:30 AM</button>
-                        <div><button style="font-size: 16px; background: transparent; border: none; color: white; margin-left: -400px;">Opening Keynote by Robin Sharma and Q&A</button></div>
-                        <button style="color: white;" class="btn btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                          more
-                        </button>
-                      </div>
-                    </h2>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>Robin Sharma</h5>
-                       <p>Top Global Leadership Expert</p>
-                      
-                      </div>
-                     </div>
-                  </div>
-                </div>
-  
-                <div class="card" style="border: none;">
-                  <div class="card-header" id="headingFour" style="background-color: rgb(70, 73, 152);">
-                    <h2 class="mb-0">
-                      <div style="display: flex; justify-content: space-between;">
-                        <button style="font-size: 16px; background: transparent; border: none; color: white;">10:30 AM - 11:15 AM</button>
-                        <div><button style="font-size: 16px; background: transparent; border: none; color: white; margin-left: -440px;">Panel on Corporate Innovation Trends</button></div>
-                        <button style="color: white;" class="btn btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                          more
-                        </button>
-                      </div>
-                    </h2>
-                  </div>
-                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                    <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>Robin Sharma</h5>
-                       <p>Top Global Leadership Expert</p>
-                       
-                      </div>
-                     </div>
-                     <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="./img/kiangohars.png" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>Kian Gohar</h5>
-                       <p>Founder & CEO of Geolab, Global Innovation Leader</p>
-                       
-                      </div>
-                     </div>
-                     <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="./img/j.png" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>Jalal Gasimov</h5>
-                       <p>CEO of PASHA Holding</p>
-                       
-                      </div>
-                     </div>
-                     <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="./img/faridahmadov.png" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>Farid Ahmadov</h5>
-                       <p>Deputy Minister of Digital Development and Transportation</p>
-                      
-                      </div>
-                     </div>
-                     <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <h4>Moderated by</h4>
-                     </div>
-
-                     <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                      <img style="width: 200px; border-radius: 10px;" src="./img/dan.png" alt="">
-                      <div class="mt-3 ml-3" style="text-align: left;">
-                       <h5>DanRam</h5>
-                       <p>Global Event MC, Startup Ecosystem Expert</p>
-                       
-                      </div>
-                     </div>
-                  </div>
-                </div>
-                <div class="card" style="border: none;">
-                  <div class="card-header" id="headingOne" style="background-color: rgb(70, 73, 152);">
-                    <h2 class="mb-0">
-                      <div style="display: flex;">
-                        <button style="font-size: 16px; background: transparent; border: none; color: white;">11:15 AM - 11:30 AM</button>
-                        <div><button style="font-size: 16px; background: transparent; border: none; color: white; margin-left: 93px;">Break</button></div>
-                        <!-- <button style="color: white;" class="btn btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          more
-                        </button> -->
-                      </div>
-                      
-                    </h2>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body" style="background-color: rgb(70, 73, 152); display: flex; width: 100% !important; border-radius: 0%;">
-                     <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
-                     <div class="mt-3 ml-3" style="text-align: left;">
-                      <h5>Robin Sharma</h5>
-                      <p>Top Global Leadership Expert</p>
-                      <p>Topic: Innovation Leader Manifesto</p>
-                     </div>
+                  </h2>
+               </div>
+               <div id="collapseTwo" class="row collapse" aria-labelledby="headingTwo"
+                  data-parent="#accordionExample">
+               <div class="col-md-3">
+                <img style="width: 200px; border-radius: 10px;" src="./img/faridosmanov.png" alt="">
+               </div>
+               <div class="col-md-9">
+                <h3 style="text-align: start;">Farid Osmanov</h3>
+                <p style="text-align: start; color:gainsboro">Executive Director of Central Bank of Azerbaijan</p>
+              </div>
+               <div class="col-md-3 mt-4">
+                <img style="width: 200px; border-radius: 10px;" src="./img/FARID MAMMADOV.png" alt="">
+               </div>
+               <div class="col-md-9 mt-4">
+                <h3 style="text-align: start;">Farid Mammadov</h3>
+                <p style="text-align: start; color:gainsboro">Deputy CEO of PASHA Holding, Former Kapital Bank</p>
+              </div>
+               <div class="col-md-3 mt-4">
+                <img style="width: 200px; border-radius: 10px;" src="./img/meirav.png" alt="">
+               </div>
+               <div class="col-md-9 mt-4">
+                <h3 style="text-align: start;">Meirav Harel</h3>
+                <p style="text-align: start; color:gainsboro">Global FinTech, Blockchain and Trading Expert</p>
+              </div>
+               <div class="col-md-3 mt-4">
+                <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/yevgen.jpeg" alt="">
+               </div>
+               <div class="col-md-9 mt-4">
+                <h3 style="text-align: start;">Yevgen Lisnyak</h3>
+                <p style="text-align: start; color:gainsboro">Senior Director, Fintech & Ventures at Visa CISSEE</p>
+              </div>
+              <div class="col-md-12 mt-2">
+                <h2>Moderated by</h2>
+               </div>
+               <div class="col-md-3 mt-3">
+                <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/tal2.png" alt="">
+               </div>
+               <div class="col-md-9 mt-3">
+                <h3 style="text-align: start;">Tal Sharon</h3>
+                <p style="text-align: start; color:gainsboro">Managing Partner at Equitech, President at Israeli FinTech Association</p>
+              </div>
+               </div>
+            </div>
+            <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+              <div class="item-header" id="headingThree">
+                <h2 class="mb-0">
+                  <div class="row">
+                    <div class="col-md-3" style="color: white;
+                    font-size: 20px;
+                    padding: 29px;
+                    display: block;
+                    width: 100%;
+                    text-align: left; font-family: Montserrat; font-size: 20px;" >
+                      13:00 PM - 14:00 PM
                     </div>
-                  </div>
-                </div>
-              </div>
-          <h1 id="menu1">FinTech Vertical</h1>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">11:30 AM-12:15 PM</div>
-                  <div style="margin-left: 15px;">Keynote</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">12:15-13:00 PM</div>
-                  <div style="margin-left: 40px;">Panel</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">13:00-14:00 PM</div>
-                  <div style="margin-left: 30px;">Lunch</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">14:00-14:45 PM</div>
-                  <div style="margin-left: 30px;">Selected Startup Pitching</div>
-                </div>
-              </div>
+                    <div class="col-md-9" style="color: white;
+                    font-size: 20px;
+                    padding: 29px;
+                    display: block;
+                    width: 100%;
+                    text-align: left; font-family: Montserrat; font-size: 20px;" >
+                      Lunch
+                    </div>   
             </div>
           </div>
-          <h1 id="menu2">Telcom Vertical</h1>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">11:30 AM-12:15 PM</div>
-                  <div style="margin-left: 15px;">Keynote</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">12:15-13:15 PM</div>
-                  <div style="margin-left: 50px;">Lunch</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">13:15-14:00 PM</div>
-                  <div style="margin-left: 40px;">Panel</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">14:00-14:45 PM</div>
-                  <div style="margin-left: 35px;">Selected Startup Pitching</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h1 id="menu3">Energy Vertical</h1>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">11:30 AM-12:15 PM</div>
-                  <div style="margin-left: 15px;">Keynote</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">12:15-13:00 PM</div>
-                  <div style="margin-left: 40px;">Panel</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">13:00-14:00 PM</div>
-                  <div style="margin-left: 35px;">Lunch</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h1 id="menu4">Corporate Innovation Workshops</h1>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">11:30 AM-13:00 PM</div>
-                  <div style="margin-left: 15px;">Workshop 1</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">13:00-14:00 PM</div>
-                  <div style="margin-left: 40px;">Lunch</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">14:00-15:30 PM</div>
-                  <div style="margin-left: 40px;">Workshop 2</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">15:30-17:00 PM</div>
-                  <div style="margin-left: 40px;">Workshop 3</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">17:00-17:15 PM</div>
-                  <div style="margin-left: 45px;">Brake</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h1 id="menu5">Networking and Startup Pitching</h1>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">11:30 AM-13:00 PM</div>
-                  <div style="margin-left: 10px;">Startup Pitching</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">15:30-17:00 PM</div>
-                  <div style="margin-left: 40px;">Startup Pitching</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h1 id="menu6">Closing Sessions & Award Ceremony</h1>
-          <div class="container mb-5">
-            <div class="row">
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">17:15-18:00 PM</div>
-                  <div style="margin-left: 40px;">Keynote 2</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">18:00-18:30 PM</div>
-                  <div style="margin-left: 35px;">Ceremony</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">18:30-18:40 PM</div>
-                  <div style="margin-left: 35px;">Closing</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">18:40-20:00 PM</div>
-                  <div style="margin-left: 30px;">Matchmaking Sessions and Networking</div>
-                </div>
-              </div>
-              <div class="col-md-12 mb-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
-                <div style="display: flex;">
-                  <div style="margin-left: 50px; margin-right: 50px;">20:00-22:00 PM</div>
-                  <div style="margin-left: 30px;">Gala Dinner</div>
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-          </div>
-        </div>
-
-
-        <footer class="text-center text-white" style="background-color: rgba(1, 3, 58, 0.883);">
-            <!-- Grid container -->
-            <div class="container p-4 pb-0">
-              <!-- Section: Social media -->
-              <section class="mb-4">
-                  <img width="200px" src="img/logo.png" alt="">
-              </section>
-              <!-- Section: Social media -->
-            </div>
-            <!-- Grid container -->
-          
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2022 Copyright:
-              <span class="text-white" href="">Innovation Summit</span>
-            </div>
-            <!-- Copyright -->
-          </footer>
+          <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Robin Sharma</h3>
+            <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           <!-- </div>
+       </div> -->
       </div>
+            <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+              <div class="item-header" id="headingFour">
+                <h2 class="mb-0">
+                  <div class="row">
+                    <div class="col-md-3" style="color: white;
+                    font-size: 20px;
+                    padding: 29px;
+                    display: block;
+                    width: 100%;
+                    text-align: left; font-family: Montserrat; font-size: 20px;" >
+                      14:00 PM - 14:45 PM
+                    </div>
+                    <div class="col-md-9" style="color: white;
+                    font-size: 20px;
+                    padding: 29px;
+                    display: block;
+                    width: 100%;
+                    text-align: left; font-family: Montserrat; font-size: 20px;" >
+                      Selected FinTech Startup Pitching
+                    </div>   
+            </div>
+          </div>
+          <!-- <div id="collapseFour" class="row collapse" aria-labelledby="headingFour"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Robin Sharma</h3>
+            <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           <!-- </div>
+       </div> -->
+      </div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <h1 id="menu2">Telcom Vertical</h1>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingOne">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                11:30 AM - 12:15 PM
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Keynote by Phillipe Dewost and Q&A
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseOne" class="row collapse" aria-labelledby="headingOne"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/ga.png" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Phillipe Dewost</h3>
+            <p style="text-align: start; color:gainsboro">CEO of EPITA, Co-Founder of Wanadoo, Inspired La French Tech</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingThree">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                12:15 PM - 13:15 PM
+              </div>
+              <div class="col-md-9" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                Lunch
+              </div>   
+      </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Robin Sharma</h3>
+      <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     <!-- </div>
+ </div> -->
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingTwelve">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          13:15 PM - 14:00 PM
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          Panel on Telcom Trends
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseTwelve" class="row collapse" aria-labelledby="headingTwelve"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="./img/ga.png" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Phillipe Dewost</h3>
+      <p style="text-align: start; color:gainsboro">CEO of EPITA, Co-Founder of Wanadoo, Inspired La French Tech</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+    <div class="col-md-3 mt-4">
+      <img style="width: 200px; border-radius: 10px;" src="./img/samaddin.png" alt="">
+     </div>
+     <div class="col-md-9 mt-4">
+      <h3 style="text-align: start;">Samaddin Asadov</h3>
+      <p style="text-align: start; color:gainsboro">Chairman of AzerCosmos</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+    <div class="col-md-3 mt-4">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/Denis Bugrov.jpg" alt="">
+     </div>
+     <div class="col-md-9 mt-4">
+      <h3 style="text-align: start;">Denis Bugrov</h3>
+      <p style="text-align: start; color:gainsboro">Senior Partner at McKinsey</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+ </div>
+ </div>
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingThree">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3" style="color: white;
+        font-size: 20px;
+        padding: 29px;
+        display: block;
+        width: 100%;
+        text-align: left; font-family: Montserrat; font-size: 20px;" >
+          14:00 PM - 14:45 PM
+        </div>
+        <div class="col-md-9" style="color: white;
+        font-size: 20px;
+        padding: 29px;
+        display: block;
+        width: 100%;
+        text-align: left; font-family: Montserrat; font-size: 20px;" >
+          Selected Teleom Startup Pitching
+        </div>   
+</div>
+</div>
+<!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+data-parent="#accordionExample">
+<div class="col-md-3">
+<img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+</div>
+<div class="col-md-9">
+<h3 style="text-align: start;">Robin Sharma</h3>
+<p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+<!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+<!-- </div>
+</div> -->
+</div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <h1 id="menu3">Energy Vertical</h1>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingFourteen">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                11:30 PM - 12:15 PM
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                Keynote by Jeroen van der Veer and Q&A
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseFourteen" class="row collapse" aria-labelledby="headingFourteen"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/jeroen.png" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Jeroen van der Veer</h3>
+            <p style="text-align: start; color:gainsboro">Former CEO of Shell, Vice-Chair of Equinor and governing Board EIT (European Institute for Technology and Innovation)</p>
+            <br>
+            <p style="text-align: start;">Short- and long-term innovation trends in the supply side of energy both in fossils and Renewables. Covering electrification, nuclear and CCUS (Carbon use / storage), trends in the demand side including smart grids, consumer behaviours and what governments can do regarding the energy mix, the role of Carbon pricing and Carbon border tasks, touching the finance side of the energy transition and longer-term geopolitical aspects, ending with his views regarding the role/opportunities for startups/scale ups on the one hand and the traditional big energy companies on the other hand.
+            </p>
+
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingFifteen">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                12:15 PM - 13:00 PM
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                Panel on Energy Trends
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseFifteen" class="row collapse" aria-labelledby="headingFifteen"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/jeroen.png" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Jeroen van der Veer</h3>
+            <p style="text-align: start; color:gainsboro">Former CEO of Shell, Vice-Chair of Equinor and governing Board EIT (European Institute for Technology and Innovation)</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+          <div class="col-md-3 mt-4">
+            <img style="width: 200px; border-radius: 10px;" src="./img/regis.png" alt="">
+           </div>
+           <div class="col-md-9 mt-4">
+            <h3 style="text-align: start;">Regis Agut</h3>
+            <p style="text-align: start; color:gainsboro">Managing Director and Country Chair at TotalEnergies</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+           <div class="col-md-12 mt-2">
+             <h2>Moderated by</h2>
+            </div>
+            <div class="col-md-3 mt-3">
+              <img style="width: 200px; border-radius: 10px;" src="./img/rb.png" alt="">
+             </div>
+             <div class="col-md-9 mt-3">
+              <h3 style="text-align: start;">Rashad Bayramov</h3>
+              <p style="text-align: start; color:gainsboro">Advisor to Minister of Digital Development and Transportation</p>
+              <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+             </div>
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingThree">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                13:00 PM - 14:00 PM
+              </div>
+              <div class="col-md-9" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                Lunch
+              </div>   
+      </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Robin Sharma</h3>
+      <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     <!-- </div>
+ </div> -->
+</div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <h1 id="menu4">Corporate Innovation Workshops</h1>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingSeventeen">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3">
+             <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                11:30 AM - 13:00 PM
+              </button>
+              </div>
+              <div class="col-md-9">
+                <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                Workshop TOPIC TBA
+                <i class="fa fa-angle-down"></i>
+              </button>
+              </div>
+            </div>
+          </h2>
+          <div id="collapseSeventeen" class="row collapse" aria-labelledby="headingSeventeen"
+          data-parent="#accordionExample">
+          <div class="col-md-3">
+            <img style="width: 200px; border-radius: 10px;" src="./img/Denis Bugrov.jpg" alt="">
+           </div>
+           <div class="col-md-9">
+            <h3 style="text-align: start;">Denis Bugrov</h3>
+            <p style="text-align: start; color:gainsboro">Senior Partner at McKinsey, Digital and Agile Transformations Expert</p>
+            <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+           </div>
+       </div>
+       </div>
+      </div>
+      <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+        <div class="item-header" id="headingThree">
+          <h2 class="mb-0">
+            <div class="row">
+              <div class="col-md-3" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                13:00 PM - 14:00 PM
+              </div>
+              <div class="col-md-9" style="color: white;
+              font-size: 20px;
+              padding: 29px;
+              display: block;
+              width: 100%;
+              text-align: left; font-family: Montserrat; font-size: 20px;" >
+                Lunch
+              </div>   
+      </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Robin Sharma</h3>
+      <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     <!-- </div>
+ </div> -->
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingNineteen">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+          14:00 PM - 15:30 PM
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+          Workshop TOPIC TBA
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseNineteen" class="row collapse" aria-labelledby="headingNineteen"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/yevgen.jpeg" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Yevgen Lisnyak</h3>
+      <p style="text-align: start; color:gainsboro">Fintech Expert of the Year 2020 Ukraine | Head of Strategic Partnerships, Fintech & Ventures at Visa CISSEE</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+ </div>
+ </div>
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingTwenty">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3">
+       <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+           15:30 PM - 17:00 PM
+        </button>
+        </div>
+        <div class="col-md-9">
+          <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+          Workshop: Digital Innovation and Growth Through Corporate Venture <br> Capital
+          <i class="fa fa-angle-down"></i>
+        </button>
+        </div>
+      </div>
+    </h2>
+    <div id="collapseTwenty" class="row collapse" aria-labelledby="headingTwenty"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+      <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/peter.png" alt="">
+     </div>
+     <div class="col-md-9">
+      <h3 style="text-align: start;">Dr. Peter Ulrich</h3>
+      <p style="text-align: start; color:gainsboro">President & CEO of UIA, Former BCG, IBM and EY Partner</p>
+      <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+     </div>
+ </div>
+ </div>
+</div>
+<div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+  <div class="item-header" id="headingThree">
+    <h2 class="mb-0">
+      <div class="row">
+        <div class="col-md-3" style="color: white;
+        font-size: 20px;
+        padding: 29px;
+        display: block;
+        width: 100%;
+        text-align: left; font-family: Montserrat; font-size: 20px;" >
+          17:00 PM - 17:15 PM
+        </div>
+        <div class="col-md-9" style="color: white;
+        font-size: 20px;
+        padding: 29px;
+        display: block;
+        width: 100%;
+        text-align: left; font-family: Montserrat; font-size: 20px;" >
+          Break
+        </div>   
+</div>
+</div>
+<!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+data-parent="#accordionExample">
+<div class="col-md-3">
+<img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+</div>
+<div class="col-md-9">
+<h3 style="text-align: start;">Robin Sharma</h3>
+<p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+<!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+<!-- </div>
+</div> -->
+</div>
+   </div>
+   <div class="accordion" id="accordionExample">
+    <h1 id="menu5">Networking and Startup Pitching</h1>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              11:30 AM - 13:00 PM
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Startup Pitching
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              15:30 PM - 17:00 PM
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Startup Pitching Continued
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+   </div>
+   <div class="accordion" id="accordionExample">
+    <h1 id="menu6">Closing Sessions & Award Ceremony</h1>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingTwentyfour">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3">
+           <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour">
+              17:15 PM - 18:00 PM
+            </button>
+            </div>
+            <div class="col-md-9">
+              <button style="font-family: Montserrat; font-size: 20px;" class="btn btn-link collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwentyfour" aria-expanded="false" aria-controls="collapseTwentyfour">
+              Closing Keynote by Kian Gohar and Q&A
+              <i class="fa fa-angle-down"></i>
+            </button>
+            </div>
+          </div>
+        </h2>
+        <div id="collapseTwentyfour" class="row collapse" aria-labelledby="headingTwentyfour"
+        data-parent="#accordionExample">
+        <div class="col-md-3">
+          <img style="width: 200px; height: 150px; border-radius: 10px;" src="./img/kiangohars.png" alt="">
+         </div>
+         <div class="col-md-9">
+          <h3 style="text-align: start;">Kian Gohar</h3>
+          <p style="text-align: start; color:gainsboro">Founder & CEO of Geolab, Global Innovation Leader & WSP Best-Selling Author</p>
+          <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+         </div>
+     </div>
+     </div>
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              18:00 PM - 18:30 PM
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Award Ceremony by Innovation and Digital Development Agency
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              18:30 PM - 18:40 PM
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Closing Remarks
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+    <div class="item col-md-12 mb-3 mt-3" style="background-color: rgb(70, 73, 152); padding: 15px; border-radius: 10px;">
+      <div class="item-header" id="headingThree">
+        <h2 class="mb-0">
+          <div class="row">
+            <div class="col-md-3" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              18:40 PM - 20:00 PM
+            </div>
+            <div class="col-md-9" style="color: white;
+            font-size: 20px;
+            padding: 29px;
+            display: block;
+            width: 100%;
+            text-align: left; font-family: Montserrat; font-size: 20px;" >
+              Matchmaking Sessions and Networking
+            </div>   
+    </div>
+    </div>
+    <!-- <div id="collapseThree" class="row collapse" aria-labelledby="headingThree"
+    data-parent="#accordionExample">
+    <div class="col-md-3">
+    <img style="width: 200px; border-radius: 10px;" src="https://economictimes.indiatimes.com/thumb/msid-68296368,width-1200,height-900,resizemode-4,imgsize-551536/robinsharma.jpg?from=mdr" alt="">
+    </div>
+    <div class="col-md-9">
+    <h3 style="text-align: start;">Robin Sharma</h3>
+    <p style="text-align: start; color:gainsboro">Top Global Leadership Expert</p> -->
+    <!-- <h6 style="text-align: start;">Top Global Leadership Expert</h6> -->
+    <!-- </div>
+    </div> -->
+    </div>
+   </div>
+
+        
+      </div>
+          </div>
+      <footer class="text-center text-white" style="background-color: rgba(1, 3, 58, 0.883);">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+              <img width="200px" src="img/logo.png" alt="">
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <span class="text-white" href="">Innovation Summit</span>
+        </div>
+        <!-- Copyright -->
+      </footer>
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
