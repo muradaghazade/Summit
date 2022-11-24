@@ -68,7 +68,7 @@
                     <h1 class="main-title" style="font-size: 4rem; font-weight: 700;">ANNUAL INNOVATION SUMMIT</h1>
                   </div>
                   <div class="col-md-6 col-12">
-                    <div class="buy-tick" style="width: 70%; height: 530px; background: linear-gradient(to right, #9a73e2, #4712aa); border-radius: 10px; margin-left: auto;">
+                    <div class="buy-tick" style="width: 70%; height: 555px; background: linear-gradient(to right, #9a73e2, #4712aa); border-radius: 10px; margin-left: auto;">
                       <div style="text-align: center;
                       padding-top: 30px; padding-bottom: 10px; border-bottom: 2px dotted black;">
                         <p>Get tickets!</p>
@@ -77,6 +77,7 @@
                         <span>Early bird</span>
                         <h1 class="" style="font-size: 74px;">$150</h1>
                         <p class="" style="margin-top: -10px; margin-bottom: 30px;">Oct 15 - Nov 25</p>
+                        <p id="demo" style="margin-top: -20px;"></p>
                         <span>Late bird</span>
                         <h1 class="mb-3" style="font-size: 40px;">$250</h1>
                         <p class="" style="margin-top: -10px; margin-bottom: 10px;">Nov 25 - Dec 12</p>
@@ -546,15 +547,35 @@
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script src="slick/slick.js"></script>
-    <script>
-    
-      $('.your-class').slick({
-          infinite:false,
-          arrows:true,
-          dots:false,
-          slidesToShow: 4,
-          autoplay:false,
-      });
-          </script>
+      <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Nov 25, 2022 23:59:59").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
 </body>
 </html>
